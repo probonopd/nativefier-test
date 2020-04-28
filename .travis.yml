@@ -2,6 +2,7 @@ dist: xenial
 language: minimal
 
 script:
+  - sudo apt-get -y install libgtk-3-0
   - bash -ex nativefier.bash
   
 branches:
