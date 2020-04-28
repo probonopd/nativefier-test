@@ -1,11 +1,11 @@
 #!/bin/bash -ex
 
-###################################################
-IMPORTANT: DO NOT RUN THIS ON SYSTEMS NEWER THAN
-THE OLDEST STILL-SUPPORTED LTS RELEASE OF UBUNTU
-OR ELSE THE RESULTING APPIMAGE WILL NOT BE ABLE TO
-RUN ON ALL STILL-SUPPORTED VERSIONS OF UBUNTU
-###################################################
+#####################################################
+# IMPORTANT: DO NOT RUN THIS ON SYSTEMS NEWER THAN
+# THE OLDEST STILL-SUPPORTED LTS RELEASE OF UBUNTU
+# OR ELSE THE RESULTING APPIMAGE WILL NOT BE ABLE TO
+# RUN ON ALL STILL-SUPPORTED VERSIONS OF UBUNTU
+#####################################################
 
 rm -rf appdir/ || true # Clean up from previous runs
 
